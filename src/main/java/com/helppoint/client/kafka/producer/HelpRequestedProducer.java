@@ -1,4 +1,4 @@
-package com.netflix.netflixuser.kafka.producer;
+package com.helppoint.client.kafka.producer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

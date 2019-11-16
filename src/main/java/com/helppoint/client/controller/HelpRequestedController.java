@@ -1,7 +1,7 @@
-package com.netflix.netflixuser.controller;
+package com.helppoint.client.controller;
 
-import com.netflix.netflixuser.dto.HelpRequestDto;
-import com.netflix.netflixuser.service.HelpService;
+import com.helppoint.client.dto.HelpRequestDto;
+import com.helppoint.client.service.HelpService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

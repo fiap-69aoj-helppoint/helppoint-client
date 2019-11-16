@@ -1,7 +1,9 @@
-package com.netflix.netflixuser.dto;
+package com.helppoint.client.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.io.Serializable;
@@ -17,6 +19,8 @@ import javax.validation.constraints.NotNull;
 @Builder
 @Getter
 @ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class HelpRequestDto implements Serializable {
 
     private static final long serialVersionUID = 1L;

@@ -1,6 +1,6 @@
-package com.netflix.netflixuser.service;
+package com.helppoint.client.service;
 
-import com.netflix.netflixuser.kafka.producer.HelpRequestedProducer;
+import com.helppoint.client.kafka.producer.HelpRequestedProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.netflix.netflixuser;
+package com.helppoint.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class NetflixUserApplication {
+public class HelppointClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NetflixUserApplication.class, args);
+		SpringApplication.run(HelppointClientApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.netflix.netflixuser.kafka.config;
+package com.helppoint.client.kafka.config;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
